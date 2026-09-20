@@ -3,7 +3,7 @@
 #include <cmath>
 
 Complex_AL::Complex_AL(double Re, double Im) : Re(Re), Im(Im) {}
-Complex_AL::~Complex_AL() {}
+//Complex_AL::~Complex_AL() {}
 
 double Complex_AL::abs() const {
 	return sqrt(Re * Re + Im * Im);
@@ -21,7 +21,7 @@ Complex_AL Complex_AL::multiply(const Complex_AL& other) const {
 }
 
 Complex_TR::Complex_TR(double radius, double alpha) : radius(radius), alpha(alpha) {}
-Complex_TR::~Complex_TR() {}
+//Complex_TR::~Complex_TR() {}
 
 double Complex_TR::abs() const {
 	return radius;
